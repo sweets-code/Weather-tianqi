@@ -3,33 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Melbourne</h1>
-        <p>
-          Saturday 17:09, scattered cloud
-          <br />
-          Humidity: 79%, Wind: 8.0km/h
-        </p>
-      </div>
-      <div>🌥 10°C</div>
-    </main>
-    <footer>
-      This project is coded by
-      <a href="https://github.com/sweets-code"> Pearly Quah,</a> is
-      <a href="https://github.com/sweets-code/Weather-tianqi"
-        >open-sourced on GitHub </a
-      >and hosted in
-      <a href="https://main--weather-tianqi.netlify.app/"> Netlify </a>.
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Melbourne</h1>
+          <p>
+            Saturday 17:09, scattered cloud
+            <br />
+            Humidity: 79%, Wind: 8.0km/h
+          </p>
+        </div>
+        <div>🌥 10°C</div>
+      </main>
+      <footer>
+        This project is coded by
+        <a href="https://github.com/sweets-code"> Pearly Quah,</a> is
+        <a href="https://github.com/sweets-code/Weather-tianqi"
+          >open-sourced on GitHub </a
+        >and hosted in
+        <a href="https://main--weather-tianqi.netlify.app/"> Netlify. </a>
+      </footer>
+    </div>
   </body>
 </html>
