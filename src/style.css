@@ -75,8 +75,9 @@ main {
   color: #3b516d;
 }
 .weather-app-icon {
-  font-size: 40px;
-  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
 }
 
 .weather-app-unit {
