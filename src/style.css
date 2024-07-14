@@ -1,5 +1,5 @@
 body {
-  background-color: #eaf6f6;
+  background: radial-gradient(#fddb92 10%, #d1fdff 100%);
   font-family: "Nunito", sans-serif;
 }
 a {
